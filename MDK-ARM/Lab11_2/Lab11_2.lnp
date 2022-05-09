@@ -1,0 +1,16 @@
+--cpu=Cortex-M4.fp.sp
+"lab11_2\startup_stm32f446xx.o"
+"lab11_2\main.o"
+"lab11_2\stm32f4xx_it.o"
+"lab11_2\stm32f4xx_ll_gpio.o"
+"lab11_2\stm32f4xx_ll_i2c.o"
+"lab11_2\stm32f4xx_ll_dma.o"
+"lab11_2\stm32f4xx_ll_rcc.o"
+"lab11_2\stm32f4xx_ll_utils.o"
+"lab11_2\stm32f4xx_ll_exti.o"
+"lab11_2\stm32f4xx_ll_usart.o"
+"lab11_2\system_stm32f4xx.o"
+--strict --scatter "Lab11_2\Lab11_2.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Lab11_2.map" -o Lab11_2\Lab11_2.axf
