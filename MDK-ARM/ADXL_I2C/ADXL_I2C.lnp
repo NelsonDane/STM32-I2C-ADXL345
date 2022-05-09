@@ -1,0 +1,16 @@
+--cpu=Cortex-M4.fp.sp
+"adxl_i2c\startup_stm32f446xx.o"
+"adxl_i2c\main.o"
+"adxl_i2c\stm32f4xx_it.o"
+"adxl_i2c\stm32f4xx_ll_gpio.o"
+"adxl_i2c\stm32f4xx_ll_i2c.o"
+"adxl_i2c\stm32f4xx_ll_dma.o"
+"adxl_i2c\stm32f4xx_ll_rcc.o"
+"adxl_i2c\stm32f4xx_ll_utils.o"
+"adxl_i2c\stm32f4xx_ll_exti.o"
+"adxl_i2c\stm32f4xx_ll_usart.o"
+"adxl_i2c\system_stm32f4xx.o"
+--strict --scatter "ADXL_I2C\ADXL_I2C.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ADXL_I2C.map" -o ADXL_I2C\ADXL_I2C.axf

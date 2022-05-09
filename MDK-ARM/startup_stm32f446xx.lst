@@ -879,13 +879,13 @@ ARM Macro Assembler    Page 14
               00000200 
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp.sp --apcs=
-interwork --depend=lab11_2\startup_stm32f446xx.d -olab11_2\startup_stm32f446xx.
-o -I.\RTE\_Lab11_2 -IC:\Users\danel\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMS
-IS\Core\Include -IC:\Users\danel\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.1
-5.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include --predefine="__EVAL SETA 1" --pre
-define="__UVISION_VERSION SETA 536" --predefine="_RTE_ SETA 1" --predefine="STM
-32F446xx SETA 1" --predefine="_RTE_ SETA 1" --list=startup_stm32f446xx.lst star
-tup_stm32f446xx.s
+interwork --depend=adxl_i2c\startup_stm32f446xx.d -oadxl_i2c\startup_stm32f446x
+x.o -I.\RTE\_ADXL_I2C -IC:\Users\danel\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\
+CMSIS\Core\Include -IC:\Users\danel\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\
+2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include --predefine="__EVAL SETA 1" --
+predefine="__UVISION_VERSION SETA 536" --predefine="_RTE_ SETA 1" --predefine="
+STM32F446xx SETA 1" --predefine="_RTE_ SETA 1" --list=startup_stm32f446xx.lst s
+tartup_stm32f446xx.s
 
 
 
